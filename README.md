@@ -4,7 +4,17 @@
 
 ### Setup
 
-1. **Dependencies Installation**: Install the required dependencies using npm:
+1. **Clone the Repository**
+
+   First, clone the repository and switch to the `assignment/dev/amit` branch:
+
+   ```bash
+   git clone -b assignment/dev/amit https://github.com/amityadav2611/MarblesHealth.git
+
+   Move into the project directory:
+   cd MarblesHealth
+
+2. **Dependencies Installation**: Install the required dependencies using npm:
 
    ```bash
     npm install
@@ -26,7 +36,7 @@
    }
    ```
 
-2. **Environment Variables**: Ensure that the necessary environment variables are set up. Create a `.env` file in the project root directory with the following content:
+3. **Environment Variables**: Ensure that the necessary environment variables are set up. Create a `.env` file in the project root directory with the following content:
 
 ```dotenv
    PORT=3008
@@ -35,7 +45,7 @@
 
    Replace `<your_mongodb_connection_string>` with your actual MongoDB connection string.
 
-3. **Running the Application**: Start the server using the following command:
+4. **Running the Application**: Start the server using the following command:
 
    ```bash
    npm start
