@@ -63,6 +63,7 @@
 ### Project Structure
 
 - **app.js**: Entry point of the application. Sets up the Express server, connects to the database, and defines middleware and routes.
+- **config.js**: Configuration file exporting environment variables.
 - **src/db/connect.js**: Contains the logic for connecting to the MongoDB database.
 - **src/modules/notes/notes.model.js**: Defines the Mongoose schema and model for notes.
 - **src/modules/notes/notes.controller.js**: Contains functions for creating, fetching, querying, and updating notes.
