@@ -57,7 +57,7 @@
    npm run dev
    ```
 
-   The server will start running on `http://localhost:3001`.
+   The server will start running on `http://localhost:3008`.
 
 
 ### Project Structure
